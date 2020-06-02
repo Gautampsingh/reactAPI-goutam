@@ -4,13 +4,13 @@ var nodemailer = require("nodemailer");
 const creds = require("../config/config");
 
 var transport = {
-  host: "mail.goutamsingh.com",
-  // host: "smtp.ethereal.email",
+  // host: "mail.goutamsingh.com",
+  host: "smtp.ethereal.email",
   // secure: false,
   port: 587,
   auth: {
-    user: creds.USER,
-    pass: creds.PASS,
+    user: creds.user,
+    pass: creds.pass,
   },
   tls: {
     rejectUnauthorized: false,
