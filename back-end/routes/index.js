@@ -41,7 +41,7 @@ router.post("/send", (req, res, next) => {
 
   let mailOptions = {
     from: req.body.name,
-    to: "goutamsi@goutamsingh.com",
+    to: "afixi.gautam@gmail.com",
     subject: "New Message from Goutamsingh.com",
     text: req.body.message,
     html: htmlEmail,
