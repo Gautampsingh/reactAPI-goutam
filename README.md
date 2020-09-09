@@ -58,3 +58,5 @@ ReactJS
 		a)Gatsby
 		b)Next.js
 		c)React Native
+
+![alt text](https://github.com/Gautampsingh/reactAPI-goutam/blob/master/reactJS-learningPath.PNG?raw=true)
